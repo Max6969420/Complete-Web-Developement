@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Size Units</title>
+    <style>
+        HTML {
+
+            font-size: 25PX;
+
+        }
+
+        .container {
+
+            /* margin: 50px;
+            text-align: center; */
+
+            font-size: 10px;
+            border: 2px solid black;
+            border-radius: 50px;
+            /* WE CAN USE 'VH' FOR HEIGHT...100 VH IS FULL VIEWPORT HEIGHT  */
+            height: 100vh; 
+            /* WE CAN USE 'VW' FOR WIDTH...100 VW IS FULL VIEWPORT WIDTH  */
+            width: 100vw;
+
+        }
+
+        h3 {
+
+            text-align: center;
+
+        }
+
+        #first {
+
+            font-size: 3rem;
+            /* REM GETS MULTIPLIED BY HMTL/ROOT ELEMENT'S SIZE */
+
+        }
+
+        #second {
+
+            font-size: 3em;
+            /* EM IS 10 TIMES OF PARENT SIZE */
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+
+        <h3 id="first">First Heading</h3>
+
+        <h3 id="second">Second Heading</h3>
+
+        <h3 id="third">Third Heading</h3>
+
+
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        body {
+            background-color: rgb(28, 185, 185);
+
+
+
+
+        }
+
+        * {
+            /* THIS COMMAND WILL OVERRIDE PADDING MARGIN WIDTH AND BORDER */
+
+            /* box-sizing: border-box;
+            padding: 200px;
+            margin: 200px; */
+
+
+        }
+
+        .container {
+            background-color: rgba(205, 248, 248, 0.64);
+            border: 3px solid #0741d9;
+            /* we can set MARGIN/PADDING FOR TOP, BOTTOM, LEFT, RIGHT, LIKE THIS*/
+            /* padding-left: 20px;  */
+            /* padding-right: 90px;  */
+            /* or */
+            /* padding : 23px 56px 6px 78px = top right bottom left{TRBL} */
+            /* padding 34px 19px*/
+            /* padding: y(top/bottom) x(left/right) */
+
+            padding: 10px 50px 10px 50px;
+
+            margin: 34px;
+
+            width: 186px;
+
+            border-radius: 10px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>First Heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet I </p>
+    </div>
+
+    <div class="container">
+        <h3>Second Heading</h3>
+        <p id="second">Lorem ipsum dolor sit amet II </p>
+    </div>
+
+    <div class="container">
+        <h3>Third Heading</h3>
+        <p id="third">Lorem ipsum dolor sit amet III </p>
+    </div>
+
+
+</body>
+
+</html>
