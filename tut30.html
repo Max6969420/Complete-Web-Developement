@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More On Selectors</title>
+    <style>
+        h3 {
+
+            background-color: rgb(0 167 0 / 68%);
+            color: black;
+            border: 2px solid black;
+            border-radius: 20px;
+            /* height: 900px;
+            width: 600px; */
+            font-weight: 50%;
+            text-align: center;
+
+        }
+
+        div p {
+
+            /* color: rgb(255 78 10);
+            background-color: #d3fff0;
+             text-align: justify; 
+            border: 1px solid black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+
+        }
+
+        div+p {
+
+            color: rgb(0, 0, 0);
+            background-color: chartreuse;
+            border: 2px solid black;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+
+        <h3> Heading I </h3>
+
+        <div class="container">
+
+            <div class="row">
+                <ul>
+
+                    <li class="item">
+                        <p>Paragraph inside li</p>
+                    </li>
+                    <li>This is not in p & will not get effected</li>
+
+                </ul>
+
+                <p>Paragraph I</p>
+
+            </div>
+
+            <p>Paragraph II</p>
+
+        </div>
+
+    </div>
+
+    <p>Paragraph III</p>
+
+</body>
+
+</html>
